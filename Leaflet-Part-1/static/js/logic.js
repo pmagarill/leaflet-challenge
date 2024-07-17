@@ -24,9 +24,8 @@ d3.json(url).then(function (data) {
             stroke: true,
             weight: 0.5
         };
-
-        // Create colors for depth
     }
+    // Create colors for depth
     function mapColor(depth) {
         switch (true) {
             case depth > 90:
